@@ -10,16 +10,16 @@ ADD . /app
 ENV NODE_ENV production
 ENV LOG_LEVEL info
 
-ENV PUBLIC_SERVER_URL 'https://admin.tryion.shop'
+ENV PUBLIC_SERVER_URL '95.168.191.255'
 ENV PARSE_SERVER_MOUNT '/parse'
 
-ENV APP_NAME 'not_set'
+ENV APP_NAME 'ionshop'
 
 # Use random.org to generate a random string for the APP_ID and MASTER_KEY/READ_ONLY_MASTER_KEY
 # Example: https://www.random.org/strings/?num=10&len=10&digits=on&upperalpha=on&loweralpha=on&unique=on&format=html&rnd=new
 
-ENV APP_ID 'not_set'
-ENV MASTER_KEY 'not_set'
+ENV APP_ID 'qvKCDbwjZu'
+ENV MASTER_KEY 'BfDmYTEyPn'
 ENV READ_ONLY_MASTER_KEY 'not_set'
 
 ENV PUSH_ANDROID_SENDER_ID 'not_set'
@@ -36,8 +36,8 @@ ENV DOKKU_LETSENCRYPT_EMAIL 'not_set'
 
 # Generate an encrypted password for your parse dashboard user
 # https://bcrypt-generator.com/
-ENV PARSE_DASHBOARD_USER 'not_set'
-ENV PARSE_DASHBOARD_PASS 'not_set'
+ENV PARSE_DASHBOARD_USER 'admin'
+ENV PARSE_DASHBOARD_PASS 'P@ssw0rdbebo'
 
 ENV PARSE_DASHBOARD_USER_READ_ONLY 'not_set'
 ENV PARSE_DASHBOARD_PASS_READ_ONLY 'not_set'
